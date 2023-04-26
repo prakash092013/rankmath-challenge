@@ -1,5 +1,14 @@
 # Rankmath WP Admin Custom Widget
 
+Plugin to add a Dashboard Widget in WP Admin area. Displaying charts using [library](https://recharts.org). We have used ReactJS to display teh Charts and fetched the data by creating custom WP REST API end points.
+
+Custom WP REST API end points used:
+- <SITEURL>/wp-json/rankmath-inspector/v1/week for fetching data of last 7 days
+- <SITEURL>/wp-json/rankmath-inspector/v1/half-month for fetching data of last 15 days
+- <SITEURL>/wp-json/rankmath-inspector/v1/month for fetching data of last 30 days
+ 
+All the above REST API end points are only accessible by logged in admin users (provided a permission check).
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
