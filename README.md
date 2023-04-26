@@ -1,5 +1,7 @@
 # Rankmath WP Admin Custom Widget
 
+[Video Explanation](https://www.dropbox.com/s/adbpmqmae3qqanu/Screen%20Recording%202023-04-26%20at%208.12.50%20AM.mov?dl=0) of the Plugin.
+
 Plugin to add a Dashboard Widget in WP Admin area. Displaying charts using [library](https://recharts.org). We have used ReactJS to display teh Charts and fetched the data by creating custom WP REST API end points.
 
 Custom WP REST API end points used:
