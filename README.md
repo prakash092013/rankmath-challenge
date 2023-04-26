@@ -7,7 +7,7 @@ Custom WP REST API end points used:
 - <SITEURL>/wp-json/rankmath-inspector/v1/half-month for fetching data of last 15 days
 - <SITEURL>/wp-json/rankmath-inspector/v1/month for fetching data of last 30 days
  
-All the above REST API end points are only accessible by logged in admin users (provided a permission check).
+All the above REST API end points publically.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

@@ -67,20 +67,7 @@ class CustomDashInit
 	}
 
 	public function rankmath_inspector_dashboard_permissions_check(){
-	    
-	    // Restrict endpoint to only users who have the capability to manage options.
-	    if (current_user_can("manage_options")) {
-	        return true;
-	    }
-
-	    return new WP_Error(
-	        "rest_forbidden",
-	        esc_html__(
-	            "You do not have permissions to view this data.",
-	            "rankmath-inspector"
-	        ),
-	        ["status" => 401]
-	    );
+	    return true;
 	}
 
 	// Registering custom end points
